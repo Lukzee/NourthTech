@@ -1,0 +1,19 @@
+.bd {
+    width: 100%;
+    height: 100%;
+    background-image: url(person-using-macbook-374720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: anim 20s ease-in-out infinite;
+    overflow: scroll;
+}
+
+@keyframes anim {
+    0%,100%{
+        background-image: url(person-using-macbook-374720.jpg);
+    }
+    50%{
+        background-image: url(silver-and-black-laptop-computer-1229861.jpg);
+    }
+}
